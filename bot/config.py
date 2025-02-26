@@ -17,13 +17,13 @@ def is_enabled(value, default):
 
 
 class Config(object):
-    API_ID = int(os.environ.get("22544661"))
-    API_HASH = os.environ.get("5dbcbc7c7388e8442f5da278b5914610")
-    BOT_TOKEN = os.environ.get("7611901718:AAEusvOY57OodWl_WgwcEVm-RiY0MysGMFI")
-    DATABASE_NAME = os.environ.get("DATABASE_NAME", "drmtest")
-    DATABASE_URL = os.environ.get("http://t.me/Drmtest1804_bot", None)
-    OWNER_ID = int(os.environ.get("6960427846")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ("-1002463068122")
+    API_ID = int(os.environ.get("27238809"))
+    API_HASH = os.environ.get("c854867f7b27f65aebd41392eb2af1d9")
+    BOT_TOKEN = os.environ.get("7812587571:AAGWY-z_YGj7UtVaw8YEuBe7Uo0yeK0MaoQ")
+    DATABASE_NAME = os.environ.get("DATABASE_NAME", "Team")
+    DATABASE_URL = os.environ.get("mongodb+srv://Team:aloksingh@team.pgam2.mongodb.net/?retryWrites=true&w=majority&appName=Team", None)
+    OWNER_ID = int(os.environ.get("8074755883")
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ("-1002462459051")
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "False"), False)
     THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "").split()))
 
@@ -36,7 +36,7 @@ class Script(object):
     START_MESSAGE = (
         " {mention}\n\nSend any link or set of links in a txt file to download them."
     )
-    DEV_MESSAGE = """👋 Hey there, I'm 𝄟⃝🐬🇵ʀɪʏᴀ𝄟⃝🐬 – your go-to Telegram bot developer!
+    DEV_MESSAGE = """👋 Hey there, I'm 𝄟⃝🐬ɴᴏᴍɪs𝄟⃝🐬 – your go-to Telegram bot developer!
 
 🤖 Love having bots that do the heavy lifting for you? That's my jam! I'm all about crafting super cool and custom Telegram bots that make your life a breeze.
 
